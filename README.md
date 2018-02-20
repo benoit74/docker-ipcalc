@@ -5,7 +5,7 @@ A docker image based on debian with ipcalc package installed
 ## Usage 
 
 ```bash
-docker run -it benoit74/ipcalc ipcalc 192.168.0.1
+docker run -t --rm benoit74/ipcalc ipcalc 192.168.0.1
 
 Address:   192.168.0.1          11000000.10101000.00000000. 00000001
 Netmask:   255.255.255.0 = 24   11111111.11111111.11111111. 00000000
